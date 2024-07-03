@@ -1,4 +1,4 @@
-FROM python:3.10.0-alpine
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/python:3.10-alpine3.20
 
 ENV PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install --upgrade pip
